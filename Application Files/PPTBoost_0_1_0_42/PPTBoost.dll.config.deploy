@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<configSections>
+		<section name="log4net" type="log4net.Config.Log4NetConfigurationSectionHandler, Log4net" />
+	</configSections>
+	<log4net>
+		<appender name="PPTBoost" type="log4net.Appender.RollingFileAppender">
+			<file value="C:\Users\abate\Documents\temp\logs\PPTBoost.log"/>
+			<encoding value="utf-8"/>
+			<appendingToFile value="true"/>
+			<rollingStyle value="Date"/>
+			<layout type="log4net.Layout.PatternLayout">
+				<conversionPattern value="%date %level [%thread] %type.%method - %message%n" />
+			</layout>
+		</appender>
+		<root>
+			<level value="All" />
+			<!-- if the following line is not included the log file will not be created even if log4net is configured in this file -->
+			<appender-ref ref="PPTBoost" />
+		</root>		
+	</log4net>
+	<appSettings>
+		<add key="narrow_id" value="15" />
+		<add key="wide_in" value="30" />
+		<add key="mincrease_in" value="1" />
+		<add key="mdecrease_in" value="1" />
+		<add key="ls_inc" value="1" />
+		<add key="ls_dec" value="1" />
+		<add key ="theme_icons" value="light"/>
+		<add key="sticker_list" value="preliminary,for discussion,illustrative"/>
+		<add key="license_status" value ="0"/><!--0 is valid; 1 is not valid-->
+		<add key="EDD_uri" value="https://theinfluenceedge.com/edd-sl"/>
+		<add key="license_key" value="4e111a62d027f98a4bd983fc1ad65e60"/>
+		<add key="item_name" value="PPTBoost"/>
+		<add key="enable_license_check" value="disabled"/>
+
+	</appSettings>
+</configuration>

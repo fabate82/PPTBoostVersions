@@ -33,6 +33,5 @@
 		<add key="license_key" value="4e111a62d027f98a4bd983fc1ad65e60"/>
 		<add key="item_name" value="PPTBoost"/>
 		<add key="enable_license_check" value="enabled"/>
-
 	</appSettings>
 </configuration>

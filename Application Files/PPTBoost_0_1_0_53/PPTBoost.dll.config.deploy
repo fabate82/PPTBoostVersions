@@ -20,8 +20,8 @@
 		</root>		
 	</log4net>
 	<appSettings>
-		<add key="narrow_id" value="15" />
-		<add key="wide_in" value="30" />
+		<add key="narrow_id" value="10" />
+		<add key="wide_in" value="15" />
 		<add key="mincrease_in" value="1" />
 		<add key="mdecrease_in" value="1" />
 		<add key="ls_inc" value="1" />

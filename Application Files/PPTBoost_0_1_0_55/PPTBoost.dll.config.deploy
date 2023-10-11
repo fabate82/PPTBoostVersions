@@ -32,7 +32,7 @@
 		<add key="expiration_date" value ="20230910"/>
 		<add key="trial_expiration_date" value ="20231031"/>
 		<add key="EDD_uri" value="https://aretein.com/edd-sl"/>
-		<add key="license_key" value="e44710e662442dc208884d5d13bd409c"/>
+		<add key="license_key" value=""/>
 		<add key="item_name" value="PPTBoost"/>
 		<add key="enable_license_check" value="enabled"/>
 		<add key="license_check_timer" value="10"/>

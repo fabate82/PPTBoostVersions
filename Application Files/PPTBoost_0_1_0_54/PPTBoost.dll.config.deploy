@@ -28,10 +28,16 @@
 		<add key="ls_dec" value="1" />
 		<add key ="theme_icons" value="light"/>
 		<add key="sticker_list" value="preliminary,for discussion,illustrative"/>
-		<add key="license_status" value ="0"/><!--0 is valid; 1 is not valid-->
-		<add key="EDD_uri" value="https://theinfluenceedge.com/edd-sl"/>
+		<add key="license_status" value ="valid"/><!-- two options valid; invalid-->
+		<add key="expiration_date" value ="20230910"/>
+		<add key="trial_expiration_date" value ="20231031"/>
+		<add key="EDD_uri" value="https://aretein.com/edd-sl"/>
 		<add key="license_key" value="e44710e662442dc208884d5d13bd409c"/>
 		<add key="item_name" value="PPTBoost"/>
-		<add key="enable_license_check" value="disabled"/>
+		<add key="enable_license_check" value="enabled"/>
+		<add key="license_check_timer" value="10"/>
+		<add key="last_license_check" value=""/>
+		<add key="manualactivationURL" value="https://localhost:7279/api/LyraActivate"/>
+		<add key="PrivateKey" value=""/>
 	</appSettings>
 </configuration>
